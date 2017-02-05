@@ -1,0 +1,15 @@
+server:
+  port: 8080
+---
+
+spring:
+  profiles: dev
+sphonic:
+  port: 8081
+
+---
+
+spring:
+  profiles: prod
+sphonic:
+  port: 8082
